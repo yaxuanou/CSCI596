@@ -47,19 +47,22 @@ We generated the following two datasets from the original Yelp review dataset wi
 8. photo.json: photo data, including captions and classifications
 
 ### Calculate Similarity
+
 There are many ways to calculate similarity . We choose Pearson Similarity
 
-<img src="https://github.com/yaxuanou/CSCI596/blob/main/PNG/personal.png width=50% height=50%>
+<img src="https://github.com/yaxuanou/CSCI596/blob/main/PNG/personal.png" width=50% height=50%>
 
 The similarity between these users can be converted into a similarity matrix
 
 Pearson correlation for w1,W2 Similarity between items1 and times2
 
-<img src="https://github.com/yaxuanou/CSCI596/blob/main/PNG/w.png width=50% height=50%>
+<img src="https://github.com/yaxuanou/CSCI596/blob/main/PNG/w.png" width=50% height=50%>
 
 Then wen can predict users rating on businesses. Using this prediction, we can recommend businesses to user.
 
-<img src="https://github.com/yaxuanou/CSCI596/blob/main/PNG/2.png width=50% height=50%>
+<img src="https://github.com/yaxuanou/CSCI596/blob/main/PNG/2.png" width=50% height=50%>
+
+
 ### Result
 We divide the absolute differences into 5 levels and count the number for each level as following
 ```
@@ -72,7 +75,8 @@ We divide the absolute differences into 5 levels and count the number for each l
 This way we will be able to know the error distribution of our predictions and to improve the performance of our recommendation systems.
 
 Additionally, we compute the RMSE (Root Mean Squared Error) by using following formula:
-<img src="https://github.com/yaxuanou/CSCI596/blob/main/PNG/RMSE.png width=50% height=50%>
+
+<img src="https://github.com/yaxuanou/CSCI596/blob/main/PNG/RMSE.png" width=50% height=50%>
 
 Where ​Predi​ is the prediction for business ​i and ​Rate​i is the true rating for business ​i​. n is the total number of the business you are predicting.
 ## Environment
