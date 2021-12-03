@@ -5,7 +5,7 @@ The GitHub repository for the CSCI596 final project. We will learn and use spark
 
 ## Group Members
 
-    ZiFan Haung
+    Zifan Huang
     Yaxuan Ou
     Jingji Zang
 
