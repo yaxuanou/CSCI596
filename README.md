@@ -18,7 +18,7 @@ Spark is an open source parallel framework like Hadoop MapReduce developed by UC
 ![Spark](https://github.com/yaxuanou/CSCI596/blob/main/PNG/spark.png)
 ## Item-based CF
 
-Collaborative Filtering (CF) is a commonly used algorithm that is available on a variety of e-commerce sites. CF algorithms include user-based CF and item-based CF. We use user-based CF to implement product recommendations.
+Collaborative Filtering (CF) is a commonly used algorithm that is available on a variety of e-commerce sites. CF algorithms include user-based CF and item-based CF. We use item-based CF to implement product recommendations.
 
 Item-based collaborative filtering is the recommendation system to use the similarity between items using the ratings by users. In this project, we use Yelp database to calculate business similiarty and predict user's rating on the business to recommened business to user.
 
