@@ -15,7 +15,7 @@ Spark is a fast, general-purpose computing engine designed for large-scale data 
 
 Spark is an open source parallel framework like Hadoop MapReduce developed by UC Berkeley AMP Lab (AMP Lab of University of California, Berkeley)
 
-![README](./png/spark.png)
+![README](https://github.com/yaxuanou/CSCI596/blob/main/PNG/1.png)
 ## Item-based CF
 
 Collaborative Filtering (CF) is a commonly used algorithm that is available on a variety of e-commerce sites. CF algorithms include user-based CF and item-based CF. We use user-based CF to implement product recommendations.
