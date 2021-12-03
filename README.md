@@ -66,7 +66,17 @@ Then wen can predict users rating on businesses. Using this prediction, we can r
 ### Result
 We divide the absolute differences into 5 levels and count the number for each level as following
 
-<img src="https://github.com/yaxuanou/CSCI596/blob/main/PNG/result.jpg" width=50% height=50%>
+```
+RMSE : 0.9798099093547139
+Error Distribution
+
+>=0 and <1: 41286 
+>=1 and <2: 15244 
+>=2 and <3: 5260
+>=3 and <4: 795
+>=4: 1
+
+```
 
 This way we will be able to know the error distribution of our predictions and to improve the performance of our recommendation systems.
 
@@ -75,6 +85,9 @@ Additionally, we compute the RMSE (Root Mean Squared Error) by using following f
 <img src="https://github.com/yaxuanou/CSCI596/blob/main/PNG/RMSE.png" width=50% height=50%>
 
 Where ​Predi​ is the prediction for business ​i and ​Rate​i is the true rating for business ​i​. n is the total number of the business you are predicting.
+
+<img src="https://github.com/yaxuanou/CSCI596/blob/main/PNG/result.jpg" width=50% height=50%>
+
 ## Environment
 + Python 3.6.4
 + Scala 2.11
