@@ -15,14 +15,14 @@ Spark is a fast, general-purpose computing engine designed for large-scale data 
 
 Spark is an open source parallel framework like Hadoop MapReduce developed by UC Berkeley AMP Lab (AMP Lab of University of California, Berkeley)
 
-![README](./spark.png)
+![README](./png/spark.png)
 ## Item-based CF
 
 Collaborative Filtering (CF) is a commonly used algorithm that is available on a variety of e-commerce sites. CF algorithms include user-based CF and item-based CF. We use user-based CF to implement product recommendations.
 
 Item-based collaborative filtering is the recommendation system to use the similarity between items using the ratings by users. In this project, we use Yelp database to calculate business similiarty and predict user's rating on the business to recommened business to user.
 
-![item based](./1.png)
+![item based](./png/1.png)
 
 ## Work flow of our final project (Implementation)
 
@@ -48,15 +48,17 @@ We generated the following two datasets from the original Yelp review dataset wi
 
 ### Calculate Similarity
 There are many ways to calculate similarity . We choose Pearson Similarity
-![personal](./personal.png)
+
+![personal](./png/personal.png)
+
 The similarity between these users can be converted into a similarity matrix
 
 Pearson correlation for w1,W2 Similarity between items1 and times2
-![w](./w.png)
+![w](./png/w.png)
 
 Then wen can predict users rating on businesses. Using this prediction, we can recommend businesses to user.
 
-![output](./2.png)
+![output](./png/2.png)
 
 ### Result
 We divide the absolute differences into 5 levels and count the number for each level as following
@@ -71,7 +73,7 @@ This way we will be able to know the error distribution of our predictions and t
 
 Additionally, we compute the RMSE (Root Mean Squared Error) by using following formula:
 
-![RMSE](./RMSE.png)
+![RMSE](./png/RMSE.png)
 
 Where ​Predi​ is the prediction for business ​i and ​Rate​i is the true rating for business ​i​. n is the total number of the business you are predicting.
 ## Environment
