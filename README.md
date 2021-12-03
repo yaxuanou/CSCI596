@@ -1,6 +1,6 @@
 # CSCI596
 csci596 final project
-# Restaurants Recomendation Based on Item-item collaborative filtering 
+# Restaurants Recommendation Based on Item-based collaborative filtering 
 The GitHub repository for the CSCI596 final project. We will learn and use spark to implement our project.
 
 ## Group Members
@@ -13,14 +13,14 @@ The GitHub repository for the CSCI596 final project. We will learn and use spark
 
 Spark is a fast, general-purpose computing engine designed for large-scale data processing. Apache Spark has its architectural foundation in the resilient distributed dataset (RDD), a read-only multiset of data items distributed over a cluster of machines, that is maintained in a fault-tolerant way. The Dataframe API was released as an abstraction on top of the RDD, followed by the Dataset API.
 
-Spark is an open source parallel framework like Hadoop MapReduce developed by UC Berkeley AMP Lab (AMP Lab of University of California, Berkeley)
+Spark is an open-source parallel framework like Hadoop MapReduce developed by UC Berkeley AMP Lab (AMP Lab of University of California, Berkeley)
 
 ![Spark](https://github.com/yaxuanou/CSCI596/blob/main/PNG/spark.png)
 ## Item-based CF
 
-Collaborative Filtering (CF) is a commonly used algorithm that is available on a variety of e-commerce sites. CF algorithms include user-based CF and item-based CF. We use item-based CF to implement product recommendations.
+Collaborative Filtering (CF) is a commonly used algorithm that is available on a variety of e-commerce sites. CF algorithms include user-based CF and item-based CF. We use item-based CF to implement restaurants recommendations.
 
-Item-based collaborative filtering is the recommendation system to use the similarity between items using the ratings by users. In this project, we use Yelp database to calculate business similiarty and predict user's rating on the business to recommened business to user.
+Item-based collaborative filtering is the recommendation system to use the similarity between items ratings provided by users. In this project, we use Yelp database to calculate business similarity and predict users' rating on the business for doing the recommendation.
 
 ![item based](https://github.com/yaxuanou/CSCI596/blob/main/PNG/1.png)
 
