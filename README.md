@@ -65,13 +65,9 @@ Then wen can predict users rating on businesses. Using this prediction, we can r
 
 ### Result
 We divide the absolute differences into 5 levels and count the number for each level as following
-```
->=0 and <1: 12345 
->=1 and <2: 123 
->=2 and <3: 1234 
->=3 and <4: 1234 
->=4: 12
-```
+
+<img src="https://github.com/yaxuanou/CSCI596/blob/main/PNG/result.jpg" width=50% height=50%>
+
 This way we will be able to know the error distribution of our predictions and to improve the performance of our recommendation systems.
 
 Additionally, we compute the RMSE (Root Mean Squared Error) by using following formula:
