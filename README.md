@@ -83,7 +83,7 @@ Additionally, we compute the RMSE (Root Mean Squared Error) by using following f
 
 <img src="https://github.com/yaxuanou/CSCI596/blob/main/PNG/RMSE.png" width=50% height=50%>
 
-Where ​Predi​ is the prediction for business ​i and ​Rate​i is the true rating for business ​i​. n is the total number of the business you are predicting.
+Where ​Predi​ is the prediction for business ​i and ​Rate ​i is the true rating for business ​i​. n is the total number of the business you are predicting.
 
 <img src="https://github.com/yaxuanou/CSCI596/blob/main/PNG/result.jpg" width=50% height=50%>
 
